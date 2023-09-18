@@ -1,16 +1,28 @@
-@charset "UTF-8"
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
-    background-image:linear-gradient(to right, white, #fddea4);
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: aqua;
+    height: 50px;
 }
 
 main{
     background-color: white;
-    width: 500px;
-    padding: 10px;
-    margin: auto;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
 }
